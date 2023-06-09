@@ -5,17 +5,17 @@
 //  Created by apus on 2023/6/7.
 //
 
+/**
+ Text学习
+ */
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("Hello, World!")
+            .font(.title)
+            .italic()
+            .underline(true, color: Color.red)
     }
 }
 
