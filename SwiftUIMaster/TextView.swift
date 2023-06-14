@@ -9,24 +9,37 @@ import SwiftUI
 
 struct TextView: View {
     var body: some View {
-        Text("Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!" .lowercased())
-            .font(.headline)
-            .fontWeight(.bold)
-            .underline()
-            .italic()
-            .strikethrough(true, color: Color.red)
-            .multilineTextAlignment(.trailing)
-            // 行间距，正表示间距在上方，负表示间距在下方
-            .baselineOffset(10)
-            // 字间距
-            .kerning(1)
-            .frame(width: 200, height: 50, alignment: .center)
         
-            // 字体颜色
-            .foregroundColor(Color.red)
+//        ScrollView(.vertical, showsIndicators: true) {
+//            VStack {
+//                ForEach(0..<100) { index in
+//                    RoundedRectangle(cornerRadius: 25)
+//                        .fill(Color.blue)
+//                        .frame(width: 200, height: 200)
+//                        .shadow(radius: 10)
+//                        .padding()
+//                }
+//            }
+//        }
         
-            // 字体缩小为原来的10%，来适应不同宽度和大小
-//            .minimumScaleFactor(0.6)
+        // 默认竖直方向滚动， 默认展示
+        ScrollView {
+            VStack {
+                ForEach(0..<100) { index in
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        LazyHStack {
+                            ForEach(0..<10) {index in
+                                RoundedRectangle(cornerRadius: 25)
+                                    .fill(.blue)
+                                    .shadow(radius: 10)
+                                    .frame(width: 200, height: 200)
+                                    .padding()
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

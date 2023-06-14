@@ -15,6 +15,7 @@
 		B8C5F3AA2A30137100D798D5 /* SwiftUIMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5F3A92A30137100D798D5 /* SwiftUIMasterTests.swift */; };
 		B8C5F3B42A30137100D798D5 /* SwiftUIMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5F3B32A30137100D798D5 /* SwiftUIMasterUITests.swift */; };
 		B8C5F3B62A30137100D798D5 /* SwiftUIMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5F3B52A30137100D798D5 /* SwiftUIMasterUITestsLaunchTests.swift */; };
+		B8F325BD2A3951A70052AA46 /* ScrollViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F325BC2A3951A70052AA46 /* ScrollViewPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B8C5F3AF2A30137100D798D5 /* SwiftUIMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C5F3B32A30137100D798D5 /* SwiftUIMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMasterUITests.swift; sourceTree = "<group>"; };
 		B8C5F3B52A30137100D798D5 /* SwiftUIMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8F325BC2A3951A70052AA46 /* ScrollViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				B8C5F39C2A30137100D798D5 /* Assets.xcassets */,
 				B8C5F39E2A30137100D798D5 /* Preview Content */,
 				B882BD782A32B75A00CD1950 /* TextView.swift */,
+				B8F325BC2A3951A70052AA46 /* ScrollViewPage.swift */,
 			);
 			path = SwiftUIMaster;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				B8C5F39B2A30136F00D798D5 /* ContentView.swift in Sources */,
 				B882BD792A32B75A00CD1950 /* TextView.swift in Sources */,
+				B8F325BD2A3951A70052AA46 /* ScrollViewPage.swift in Sources */,
 				B8C5F3992A30136F00D798D5 /* SwiftUIMasterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
