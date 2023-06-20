@@ -18,7 +18,7 @@ struct ScrollViewPage: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
                             ForEach(0..<10) { index in
-                                RoundedRectangle(cornerRadius: 25)
+                                RoundedRectangle(cornerRadius: 26)
                                     .fill(.blue)
                                     .frame(width: 200, height: 200)
                                     .padding()

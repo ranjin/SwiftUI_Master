@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B849F8E02A41429900BF5BEF /* StateLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8DF2A41429900BF5BEF /* StateLearning.swift */; };
+		B849F8E32A41BDCD00BF5BEF /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */; };
 		B882BD792A32B75A00CD1950 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B882BD782A32B75A00CD1950 /* TextView.swift */; };
 		B8C5F3992A30136F00D798D5 /* SwiftUIMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5F3982A30136F00D798D5 /* SwiftUIMasterApp.swift */; };
 		B8C5F39B2A30136F00D798D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5F39A2A30136F00D798D5 /* ContentView.swift */; };
@@ -16,6 +18,7 @@
 		B8C5F3B42A30137100D798D5 /* SwiftUIMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5F3B32A30137100D798D5 /* SwiftUIMasterUITests.swift */; };
 		B8C5F3B62A30137100D798D5 /* SwiftUIMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5F3B52A30137100D798D5 /* SwiftUIMasterUITestsLaunchTests.swift */; };
 		B8F325BD2A3951A70052AA46 /* ScrollViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F325BC2A3951A70052AA46 /* ScrollViewPage.swift */; };
+		B8FAD50A2A3982AD0052B7DA /* LazyVGridPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FAD5092A3982AD0052B7DA /* LazyVGridPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B849F8DF2A41429900BF5BEF /* StateLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLearning.swift; sourceTree = "<group>"; };
+		B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		B882BD782A32B75A00CD1950 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		B8C5F3952A30136F00D798D5 /* SwiftUIMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C5F3982A30136F00D798D5 /* SwiftUIMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMasterApp.swift; sourceTree = "<group>"; };
@@ -48,6 +53,7 @@
 		B8C5F3B32A30137100D798D5 /* SwiftUIMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMasterUITests.swift; sourceTree = "<group>"; };
 		B8C5F3B52A30137100D798D5 /* SwiftUIMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B8F325BC2A3951A70052AA46 /* ScrollViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPage.swift; sourceTree = "<group>"; };
+		B8FAD5092A3982AD0052B7DA /* LazyVGridPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				B8C5F39E2A30137100D798D5 /* Preview Content */,
 				B882BD782A32B75A00CD1950 /* TextView.swift */,
 				B8F325BC2A3951A70052AA46 /* ScrollViewPage.swift */,
+				B8FAD5092A3982AD0052B7DA /* LazyVGridPage.swift */,
+				B849F8DF2A41429900BF5BEF /* StateLearning.swift */,
+				B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */,
 			);
 			path = SwiftUIMaster;
 			sourceTree = "<group>";
@@ -264,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C5F39B2A30136F00D798D5 /* ContentView.swift in Sources */,
+				B849F8E02A41429900BF5BEF /* StateLearning.swift in Sources */,
+				B8FAD50A2A3982AD0052B7DA /* LazyVGridPage.swift in Sources */,
 				B882BD792A32B75A00CD1950 /* TextView.swift in Sources */,
+				B849F8E32A41BDCD00BF5BEF /* AnimationView.swift in Sources */,
 				B8F325BD2A3951A70052AA46 /* ScrollViewPage.swift in Sources */,
 				B8C5F3992A30136F00D798D5 /* SwiftUIMasterApp.swift in Sources */,
 			);
