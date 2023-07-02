@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUIMasterApp: App {
     var body: some Scene {
         WindowGroup {
-            Movable_Grids()
+            ContextMenuDemo()
+//            Movable_Grids()
 //            ContentView()
         }
     }
