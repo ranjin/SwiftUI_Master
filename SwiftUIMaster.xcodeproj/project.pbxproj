@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3BF231472A5198C100508F84 /* Movable_Grids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF231462A5198C100508F84 /* Movable_Grids.swift */; };
+		3BF231492A51A11A00508F84 /* NavigationViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF231482A51A11A00508F84 /* NavigationViewDemo.swift */; };
+		3BF2314B2A51BC0000508F84 /* ListViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2314A2A51BC0000508F84 /* ListViewDemo.swift */; };
 		B849F8E02A41429900BF5BEF /* StateLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8DF2A41429900BF5BEF /* StateLearning.swift */; };
 		B849F8E32A41BDCD00BF5BEF /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */; };
 		B849F8E52A428A3700BF5BEF /* EnvironmentLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8E42A428A3700BF5BEF /* EnvironmentLearning.swift */; };
@@ -42,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		3BF231462A5198C100508F84 /* Movable_Grids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movable_Grids.swift; sourceTree = "<group>"; };
+		3BF231482A51A11A00508F84 /* NavigationViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewDemo.swift; sourceTree = "<group>"; };
+		3BF2314A2A51BC0000508F84 /* ListViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDemo.swift; sourceTree = "<group>"; };
 		B849F8DF2A41429900BF5BEF /* StateLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLearning.swift; sourceTree = "<group>"; };
 		B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		B849F8E42A428A3700BF5BEF /* EnvironmentLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentLearning.swift; sourceTree = "<group>"; };
@@ -111,7 +115,6 @@
 				B8C5F3982A30136F00D798D5 /* SwiftUIMasterApp.swift */,
 				B8C5F39A2A30136F00D798D5 /* ContentView.swift */,
 				B8C5F39C2A30137100D798D5 /* Assets.xcassets */,
-				B8C5F39E2A30137100D798D5 /* Preview Content */,
 				B882BD782A32B75A00CD1950 /* TextView.swift */,
 				B8F325BC2A3951A70052AA46 /* ScrollViewPage.swift */,
 				B8FAD5092A3982AD0052B7DA /* LazyVGridPage.swift */,
@@ -119,6 +122,9 @@
 				B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */,
 				B849F8E42A428A3700BF5BEF /* EnvironmentLearning.swift */,
 				3BF231462A5198C100508F84 /* Movable_Grids.swift */,
+				3BF231482A51A11A00508F84 /* NavigationViewDemo.swift */,
+				3BF2314A2A51BC0000508F84 /* ListViewDemo.swift */,
+				B8C5F39E2A30137100D798D5 /* Preview Content */,
 			);
 			path = SwiftUIMaster;
 			sourceTree = "<group>";
@@ -280,10 +286,12 @@
 			files = (
 				B8C5F39B2A30136F00D798D5 /* ContentView.swift in Sources */,
 				B849F8E52A428A3700BF5BEF /* EnvironmentLearning.swift in Sources */,
+				3BF231492A51A11A00508F84 /* NavigationViewDemo.swift in Sources */,
 				B849F8E02A41429900BF5BEF /* StateLearning.swift in Sources */,
 				B8FAD50A2A3982AD0052B7DA /* LazyVGridPage.swift in Sources */,
 				B882BD792A32B75A00CD1950 /* TextView.swift in Sources */,
 				B849F8E32A41BDCD00BF5BEF /* AnimationView.swift in Sources */,
+				3BF2314B2A51BC0000508F84 /* ListViewDemo.swift in Sources */,
 				B8F325BD2A3951A70052AA46 /* ScrollViewPage.swift in Sources */,
 				3BF231472A5198C100508F84 /* Movable_Grids.swift in Sources */,
 				B8C5F3992A30136F00D798D5 /* SwiftUIMasterApp.swift in Sources */,
