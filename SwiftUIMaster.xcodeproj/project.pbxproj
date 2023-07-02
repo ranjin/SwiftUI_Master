@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BF231472A5198C100508F84 /* Movable_Grids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF231462A5198C100508F84 /* Movable_Grids.swift */; };
 		B849F8E02A41429900BF5BEF /* StateLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8DF2A41429900BF5BEF /* StateLearning.swift */; };
 		B849F8E32A41BDCD00BF5BEF /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */; };
 		B849F8E52A428A3700BF5BEF /* EnvironmentLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8E42A428A3700BF5BEF /* EnvironmentLearning.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BF231462A5198C100508F84 /* Movable_Grids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movable_Grids.swift; sourceTree = "<group>"; };
 		B849F8DF2A41429900BF5BEF /* StateLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLearning.swift; sourceTree = "<group>"; };
 		B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		B849F8E42A428A3700BF5BEF /* EnvironmentLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentLearning.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				B849F8DF2A41429900BF5BEF /* StateLearning.swift */,
 				B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */,
 				B849F8E42A428A3700BF5BEF /* EnvironmentLearning.swift */,
+				3BF231462A5198C100508F84 /* Movable_Grids.swift */,
 			);
 			path = SwiftUIMaster;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				B882BD792A32B75A00CD1950 /* TextView.swift in Sources */,
 				B849F8E32A41BDCD00BF5BEF /* AnimationView.swift in Sources */,
 				B8F325BD2A3951A70052AA46 /* ScrollViewPage.swift in Sources */,
+				3BF231472A5198C100508F84 /* Movable_Grids.swift in Sources */,
 				B8C5F3992A30136F00D798D5 /* SwiftUIMasterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
