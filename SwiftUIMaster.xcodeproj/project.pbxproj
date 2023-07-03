@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BCDDF002A530E8B00D872E6 /* TextEditorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDEFF2A530E8B00D872E6 /* TextEditorDemo.swift */; };
+		3BCDDF022A53107F00D872E6 /* ToggleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDF012A53107F00D872E6 /* ToggleDemo.swift */; };
+		3BCDDF042A53118300D872E6 /* Picker_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDF032A53118300D872E6 /* Picker_Demo.swift */; };
+		3BCDDF062A531AF200D872E6 /* ColorPicker_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDF052A531AF200D872E6 /* ColorPicker_Demo.swift */; };
+		3BCDDF082A531C5A00D872E6 /* DataPicker_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDF072A531C5A00D872E6 /* DataPicker_Demo.swift */; };
 		3BF231472A5198C100508F84 /* Movable_Grids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF231462A5198C100508F84 /* Movable_Grids.swift */; };
 		3BF231492A51A11A00508F84 /* NavigationViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF231482A51A11A00508F84 /* NavigationViewDemo.swift */; };
 		3BF2314B2A51BC0000508F84 /* ListViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2314A2A51BC0000508F84 /* ListViewDemo.swift */; };
@@ -47,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BCDDEFF2A530E8B00D872E6 /* TextEditorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorDemo.swift; sourceTree = "<group>"; };
+		3BCDDF012A53107F00D872E6 /* ToggleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleDemo.swift; sourceTree = "<group>"; };
+		3BCDDF032A53118300D872E6 /* Picker_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Demo.swift; sourceTree = "<group>"; };
+		3BCDDF052A531AF200D872E6 /* ColorPicker_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_Demo.swift; sourceTree = "<group>"; };
+		3BCDDF072A531C5A00D872E6 /* DataPicker_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPicker_Demo.swift; sourceTree = "<group>"; };
 		3BF231462A5198C100508F84 /* Movable_Grids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movable_Grids.swift; sourceTree = "<group>"; };
 		3BF231482A51A11A00508F84 /* NavigationViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewDemo.swift; sourceTree = "<group>"; };
 		3BF2314A2A51BC0000508F84 /* ListViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDemo.swift; sourceTree = "<group>"; };
@@ -137,6 +147,11 @@
 				3BF2314E2A51CBB100508F84 /* ActionSheetDemo.swift */,
 				3BF231502A51D00E00508F84 /* ContextMenuDemo.swift */,
 				3BF231522A51D36800508F84 /* TextFieldDemo.swift */,
+				3BCDDEFF2A530E8B00D872E6 /* TextEditorDemo.swift */,
+				3BCDDF012A53107F00D872E6 /* ToggleDemo.swift */,
+				3BCDDF032A53118300D872E6 /* Picker_Demo.swift */,
+				3BCDDF052A531AF200D872E6 /* ColorPicker_Demo.swift */,
+				3BCDDF072A531C5A00D872E6 /* DataPicker_Demo.swift */,
 			);
 			path = SwiftUIMaster;
 			sourceTree = "<group>";
@@ -296,7 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCDDF042A53118300D872E6 /* Picker_Demo.swift in Sources */,
+				3BCDDF002A530E8B00D872E6 /* TextEditorDemo.swift in Sources */,
 				B8C5F39B2A30136F00D798D5 /* ContentView.swift in Sources */,
+				3BCDDF022A53107F00D872E6 /* ToggleDemo.swift in Sources */,
+				3BCDDF082A531C5A00D872E6 /* DataPicker_Demo.swift in Sources */,
 				B849F8E52A428A3700BF5BEF /* EnvironmentLearning.swift in Sources */,
 				3BF231492A51A11A00508F84 /* NavigationViewDemo.swift in Sources */,
 				3BF2314D2A51C7A100508F84 /* AlertDemo.swift in Sources */,
@@ -305,6 +324,7 @@
 				B849F8E02A41429900BF5BEF /* StateLearning.swift in Sources */,
 				B8FAD50A2A3982AD0052B7DA /* LazyVGridPage.swift in Sources */,
 				B882BD792A32B75A00CD1950 /* TextView.swift in Sources */,
+				3BCDDF062A531AF200D872E6 /* ColorPicker_Demo.swift in Sources */,
 				B849F8E32A41BDCD00BF5BEF /* AnimationView.swift in Sources */,
 				3BF231512A51D00E00508F84 /* ContextMenuDemo.swift in Sources */,
 				3BF2314B2A51BC0000508F84 /* ListViewDemo.swift in Sources */,
