@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct DataPicker_Demo: View {
+    @State private var selectedDate: Date = Date()
+    
+    var dateFormatter : DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .full
+        formatter.timeStyle = .short
+        return formatter;
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(dateFormatter.string(from: selectedDate))
+            DatePicker("Select a day", selection: $selectedDate, displayedComponents: [.date, .hourAndMinute])
+    //            .datePickerStyle(.wheel)
+        }
+        
     }
 }
 
