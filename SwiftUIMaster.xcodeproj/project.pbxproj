@@ -20,6 +20,8 @@
 		3BF2314F2A51CBB100508F84 /* ActionSheetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2314E2A51CBB100508F84 /* ActionSheetDemo.swift */; };
 		3BF231512A51D00E00508F84 /* ContextMenuDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF231502A51D00E00508F84 /* ContextMenuDemo.swift */; };
 		3BF231532A51D36800508F84 /* TextFieldDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF231522A51D36800508F84 /* TextFieldDemo.swift */; };
+		3BF243252A570CD300D5178A /* SlidderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF243242A570CD300D5178A /* SlidderDemo.swift */; };
+		3BF243272A570FAA00D5178A /* TabViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF243262A570FAA00D5178A /* TabViewDemo.swift */; };
 		B849F8E02A41429900BF5BEF /* StateLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8DF2A41429900BF5BEF /* StateLearning.swift */; };
 		B849F8E32A41BDCD00BF5BEF /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */; };
 		B849F8E52A428A3700BF5BEF /* EnvironmentLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849F8E42A428A3700BF5BEF /* EnvironmentLearning.swift */; };
@@ -66,6 +68,8 @@
 		3BF2314E2A51CBB100508F84 /* ActionSheetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetDemo.swift; sourceTree = "<group>"; };
 		3BF231502A51D00E00508F84 /* ContextMenuDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuDemo.swift; sourceTree = "<group>"; };
 		3BF231522A51D36800508F84 /* TextFieldDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemo.swift; sourceTree = "<group>"; };
+		3BF243242A570CD300D5178A /* SlidderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidderDemo.swift; sourceTree = "<group>"; };
+		3BF243262A570FAA00D5178A /* TabViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemo.swift; sourceTree = "<group>"; };
 		B849F8DF2A41429900BF5BEF /* StateLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLearning.swift; sourceTree = "<group>"; };
 		B849F8E22A41BDCD00BF5BEF /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		B849F8E42A428A3700BF5BEF /* EnvironmentLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentLearning.swift; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 				3BCDDF052A531AF200D872E6 /* ColorPicker_Demo.swift */,
 				3BCDDF072A531C5A00D872E6 /* DataPicker_Demo.swift */,
 				3B437C6B2A54652F002523CC /* StepperDemo.swift */,
+				3BF243242A570CD300D5178A /* SlidderDemo.swift */,
+				3BF243262A570FAA00D5178A /* TabViewDemo.swift */,
 			);
 			path = SwiftUIMaster;
 			sourceTree = "<group>";
@@ -316,6 +322,7 @@
 			files = (
 				3BCDDF042A53118300D872E6 /* Picker_Demo.swift in Sources */,
 				3BCDDF002A530E8B00D872E6 /* TextEditorDemo.swift in Sources */,
+				3BF243252A570CD300D5178A /* SlidderDemo.swift in Sources */,
 				B8C5F39B2A30136F00D798D5 /* ContentView.swift in Sources */,
 				3BCDDF022A53107F00D872E6 /* ToggleDemo.swift in Sources */,
 				3BCDDF082A531C5A00D872E6 /* DataPicker_Demo.swift in Sources */,
@@ -326,6 +333,7 @@
 				3BF231532A51D36800508F84 /* TextFieldDemo.swift in Sources */,
 				B849F8E02A41429900BF5BEF /* StateLearning.swift in Sources */,
 				B8FAD50A2A3982AD0052B7DA /* LazyVGridPage.swift in Sources */,
+				3BF243272A570FAA00D5178A /* TabViewDemo.swift in Sources */,
 				B882BD792A32B75A00CD1950 /* TextView.swift in Sources */,
 				3BCDDF062A531AF200D872E6 /* ColorPicker_Demo.swift in Sources */,
 				B849F8E32A41BDCD00BF5BEF /* AnimationView.swift in Sources */,
