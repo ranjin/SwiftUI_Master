@@ -17,7 +17,6 @@ struct NavigationViewDemo: View {
                 Text("Hello, World!")
                 Text("Hello, World!")
             }
-            .navigationTitle("测试")
             .navigationBarItems(
                 leading:
                     HStack {

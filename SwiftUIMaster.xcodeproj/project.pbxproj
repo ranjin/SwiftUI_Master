@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3B437C6C2A54652F002523CC /* StepperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B437C6B2A54652F002523CC /* StepperDemo.swift */; };
+		3B5ECDC22A5901F800CA17B5 /* DarkModeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ECDC12A5901F800CA17B5 /* DarkModeDemo.swift */; };
+		3B5ECDC82A59171900CA17B5 /* OnAppearDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ECDC72A59171800CA17B5 /* OnAppearDemo.swift */; };
+		3B5ECDCA2A591B4A00CA17B5 /* 点语法响应作用域.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ECDC92A591B4A00CA17B5 /* 点语法响应作用域.swift */; };
+		3B5ECDD02A5AFAF900CA17B5 /* IfLetGuardDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ECDCF2A5AFAF900CA17B5 /* IfLetGuardDemo.swift */; };
 		3BCDDF002A530E8B00D872E6 /* TextEditorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDEFF2A530E8B00D872E6 /* TextEditorDemo.swift */; };
 		3BCDDF022A53107F00D872E6 /* ToggleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDF012A53107F00D872E6 /* ToggleDemo.swift */; };
 		3BCDDF042A53118300D872E6 /* Picker_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDF032A53118300D872E6 /* Picker_Demo.swift */; };
@@ -56,6 +60,10 @@
 
 /* Begin PBXFileReference section */
 		3B437C6B2A54652F002523CC /* StepperDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperDemo.swift; sourceTree = "<group>"; };
+		3B5ECDC12A5901F800CA17B5 /* DarkModeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeDemo.swift; sourceTree = "<group>"; };
+		3B5ECDC72A59171800CA17B5 /* OnAppearDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearDemo.swift; sourceTree = "<group>"; };
+		3B5ECDC92A591B4A00CA17B5 /* 点语法响应作用域.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "点语法响应作用域.swift"; sourceTree = "<group>"; };
+		3B5ECDCF2A5AFAF900CA17B5 /* IfLetGuardDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardDemo.swift; sourceTree = "<group>"; };
 		3BCDDEFF2A530E8B00D872E6 /* TextEditorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorDemo.swift; sourceTree = "<group>"; };
 		3BCDDF012A53107F00D872E6 /* ToggleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleDemo.swift; sourceTree = "<group>"; };
 		3BCDDF032A53118300D872E6 /* Picker_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Demo.swift; sourceTree = "<group>"; };
@@ -161,6 +169,10 @@
 				3B437C6B2A54652F002523CC /* StepperDemo.swift */,
 				3BF243242A570CD300D5178A /* SlidderDemo.swift */,
 				3BF243262A570FAA00D5178A /* TabViewDemo.swift */,
+				3B5ECDC12A5901F800CA17B5 /* DarkModeDemo.swift */,
+				3B5ECDC72A59171800CA17B5 /* OnAppearDemo.swift */,
+				3B5ECDC92A591B4A00CA17B5 /* 点语法响应作用域.swift */,
+				3B5ECDCF2A5AFAF900CA17B5 /* IfLetGuardDemo.swift */,
 			);
 			path = SwiftUIMaster;
 			sourceTree = "<group>";
@@ -320,7 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5ECDCA2A591B4A00CA17B5 /* 点语法响应作用域.swift in Sources */,
 				3BCDDF042A53118300D872E6 /* Picker_Demo.swift in Sources */,
+				3B5ECDC22A5901F800CA17B5 /* DarkModeDemo.swift in Sources */,
 				3BCDDF002A530E8B00D872E6 /* TextEditorDemo.swift in Sources */,
 				3BF243252A570CD300D5178A /* SlidderDemo.swift in Sources */,
 				B8C5F39B2A30136F00D798D5 /* ContentView.swift in Sources */,
@@ -338,6 +352,8 @@
 				3BCDDF062A531AF200D872E6 /* ColorPicker_Demo.swift in Sources */,
 				B849F8E32A41BDCD00BF5BEF /* AnimationView.swift in Sources */,
 				3BF231512A51D00E00508F84 /* ContextMenuDemo.swift in Sources */,
+				3B5ECDD02A5AFAF900CA17B5 /* IfLetGuardDemo.swift in Sources */,
+				3B5ECDC82A59171900CA17B5 /* OnAppearDemo.swift in Sources */,
 				3B437C6C2A54652F002523CC /* StepperDemo.swift in Sources */,
 				3BF2314B2A51BC0000508F84 /* ListViewDemo.swift in Sources */,
 				B8F325BD2A3951A70052AA46 /* ScrollViewPage.swift in Sources */,
