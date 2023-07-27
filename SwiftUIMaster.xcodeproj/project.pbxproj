@@ -18,6 +18,7 @@
 		3BCDDF042A53118300D872E6 /* Picker_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDF032A53118300D872E6 /* Picker_Demo.swift */; };
 		3BCDDF062A531AF200D872E6 /* ColorPicker_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDF052A531AF200D872E6 /* ColorPicker_Demo.swift */; };
 		3BCDDF082A531C5A00D872E6 /* DataPicker_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDDF072A531C5A00D872E6 /* DataPicker_Demo.swift */; };
+		3BD1DFC02A72A7AB005B70BB /* EnvironmentObjectDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1DFBF2A72A7AB005B70BB /* EnvironmentObjectDemo.swift */; };
 		3BEE3B112A6A0DD200A6DBC8 /* TapGestureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE3B102A6A0DD200A6DBC8 /* TapGestureDemo.swift */; };
 		3BF231472A5198C100508F84 /* Movable_Grids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF231462A5198C100508F84 /* Movable_Grids.swift */; };
 		3BF231492A51A11A00508F84 /* NavigationViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF231482A51A11A00508F84 /* NavigationViewDemo.swift */; };
@@ -73,6 +74,7 @@
 		3BCDDF032A53118300D872E6 /* Picker_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Demo.swift; sourceTree = "<group>"; };
 		3BCDDF052A531AF200D872E6 /* ColorPicker_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_Demo.swift; sourceTree = "<group>"; };
 		3BCDDF072A531C5A00D872E6 /* DataPicker_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPicker_Demo.swift; sourceTree = "<group>"; };
+		3BD1DFBF2A72A7AB005B70BB /* EnvironmentObjectDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectDemo.swift; sourceTree = "<group>"; };
 		3BEE3B102A6A0DD200A6DBC8 /* TapGestureDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureDemo.swift; sourceTree = "<group>"; };
 		3BF231462A5198C100508F84 /* Movable_Grids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movable_Grids.swift; sourceTree = "<group>"; };
 		3BF231482A51A11A00508F84 /* NavigationViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewDemo.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				3BEE3B102A6A0DD200A6DBC8 /* TapGestureDemo.swift */,
 				3B7D40FE2A6AC013000444EF /* ModelDemo.swift */,
 				3BF7E1EE2A7162B30035424F /* ViewModelDemo.swift */,
+				3BD1DFBF2A72A7AB005B70BB /* EnvironmentObjectDemo.swift */,
 			);
 			path = SwiftUIMaster;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				3BF2314B2A51BC0000508F84 /* ListViewDemo.swift in Sources */,
 				3BEE3B112A6A0DD200A6DBC8 /* TapGestureDemo.swift in Sources */,
 				B8F325BD2A3951A70052AA46 /* ScrollViewPage.swift in Sources */,
+				3BD1DFC02A72A7AB005B70BB /* EnvironmentObjectDemo.swift in Sources */,
 				3BF231472A5198C100508F84 /* Movable_Grids.swift in Sources */,
 				B8C5F3992A30136F00D798D5 /* SwiftUIMasterApp.swift in Sources */,
 			);
